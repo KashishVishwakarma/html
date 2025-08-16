@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is the page for revision purpose">
+   <title> My Profile!</title>
+    <link rel="stylesheet" href="revision.css">
+</head>
+<body>
+    <h1>Hello Kashish!</h1>
+    <h2>Welcome</h2>
+  background color
+  
+<p style="background-color: azure;">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis consectetur aperiam in soluta excepturi culpa provident, earum id deleniti exercitationem pariatur qui voluptates est autem eos asperiores, laudantium recusandae dolorum?  
+</p>
+for links of official website
+<a target="_blank" href="https://www.google.com/">Google</a>
+<form action="post">
+  <label for="username">username</label>
+  <input type="text" id="username" name="username" placeholder="Enter your username">
+<div></div>  <label for="male">male</label>
+  <input type="radio" id="male" name="gender" value="male"><div></div>
+  <label for="female">female</label><input type="radio" id="female" name="gender" value="female">
+  <div><input type="checkbox" id="subscribe" name="subscribe" value="subscribe"><label for="subscribe">subscribe</label></div>
+ 
+<!--select tag-->
+ <select name="fruits">
+  <option value="apple">Apple</option>
+  <option value="mango">Mango</option>
+  <option value="cherry">Cherry</option>
+</select>
+<input type="text" required>
+<input type="text"autofocus><!--table tag-->
+ <table>
+  <caption >Student Details</caption>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Destination</th>
+    <th>fav language</th>
+
+  </tr></thead>
+  <tr>
+    <td >Kashish</td>
+    <td >Programmer</td>
+    <td>Java</td>
+  </tr><tfoot>
+  <tr>
+    <td colspan="2">Kashish</td>
+    <td rowspan="2">Programmer</td>
+    
+  </tr></tfoot>
+  
+
+</table> 
+<!--lists 1.ordered list 2.unordered list 3.Definition list-->
+   <ul type="square"><li>kashish</li>
+  <li>class</li></ul>
+  <ol type="A"><li>kashish</li>
+  <li>class</li></ol>
+  <dl>
+    <dt>HTML</dt>
+    <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum est id odio modi doloremque, qui ipsa alias pariatur vel unde similique eveniet maxime impedit veritatis consequatur reiciendis voluptas dolores atque.</dd>
+  <dt>css</dt>
+  <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas veniam tempora, ad modi inventore unde ut alias vel, dolore molestiae quos? Veniam vero tenetur temporibus magnam, praesentium assumenda eum.</dd>
+  </dl>
+</form> 
+<!--lcp good score is 2.5 fid how many time input takes time for process
+cumulative layout shift should be minimize-->
+<a href="www.google.com">Google</a>
+<p>hey! Kashish</p>
+    <div>am block element</div>
+    <span>inline element</span>
+
+   <!-- paragraph and div tag is a block element puri width lete h anchor and span is inline  -->
+    <div id="firstdiv" class="red">First div</div>
+    <div id="seconddiv">SecondDiv</div>
+    <span class="red"></span>
+    <video src="" width="555" height="" controls autoplay></video>
+<audio src="" contols autoplay loop></audio>
+<audio src="" controls muted ></audio>
+<audio src="" controls play></audio>
+<svg xmlns="https:/" height="" width="">
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red"/> 
+  <!--semantic tags <header><nav> <main><figure><p><section><aside><article>-->
+
+</svg>
+<iframe src="" height="" width=""></iframe>
+<header>
+  <nav>
+    <ul>
+     
+       <li>Hello</li> <li>Hello</li> <li>Hello</li>
+    </ul>
+    my name is doraemon
+  </nav>
+</header>
+<aside>
+  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex quae labore est laborum ducimus eligendi debitis ratione corrupti eos, nesciunt non velit quis a necessitatibus temporibus consequuntur vero soluta ipsam.
+</aside>/ 
+<!--HTML entities -->
+3>4
+this is &lt;p&gt;&lt;/p&gt;
+<pre>
+  <p>
+    this is a para
+  </p>
+  and some
+</pre>
+&copy;   
+&nbsp;                         code
+<div>
+  hello
+</div>
+
+<style>
+  div{
+    color: aquamarine;
+    background-color: brown;
+  }
+  
+</style>  
+ <h1>hello</h1>
+<style>
+h1{
+  background-color: blue;
+  color: white;
+}
+</style>
+
+<div class="blueviolet">kashish</div>
+<style> 
+  /* class selector */
+  /* .blueviolet{
+    background-color: blueviolet;
+  } */
+  /* id selector */
+  /* #green{
+    background-color: green;
+  }
+  div>p{
+    color: brown;          div direct child  child selector */
+    /* background-color: yellow;
+  }
+  /* descented selector */
+  /* div p{
+    color: blanchedalmond;
+  }
+  /* Universal selectors */
+  *{
+   
+    margin: 0;
+    padding: 0;
+  } 
+  /* Pseudo selector */
+   a:visited{
+    color: darkgray;
+  }
+  a:active{
+     background-color: darkred;
+  }
+  a:link{
+    color: chartreuse;
+  }
+</style><div id="green">
+  hello my name is doraemon
+</div>
+<div>
+  <p>shinchan pyara</p>
+</div>
+<a href="https://www.google.com">GO to google</a>
+<style>
+  div{
+    margin: 0;
+    padding: 0;
+   background-color:  aquamarine;
+  }
+.box{
+background-color: aquamarine;
+}
+.box1{
+  color: rgb(216, 141, 29);
+  padding:10px;
+   border: 2px solid rgb(37, 117, 126);
+ margin: 30px;
+ height: 200px;
+ padding: 20px;
+ box-sizing: border-box;
+}
+.box2{
+  color: brown;
+ border: 2px solid blue;
+ margin: 20px;
+ height: 200px;
+ padding: 20px;
+ box-sizing: border-box;
+}
+</style>
+
+<div class="box box1">UB</div>
+<div class="box box2">Perman</div> 
+
+</body>
+</html> 
